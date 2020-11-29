@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\API\API.csproj" />
+    <ProjectReference Include="..\API\API.csproj">
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\API\API.csproj" />
+    <ProjectReference Include="..\API\API.csproj">
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
     <ProjectReference Include="..\TradingComponent\TradingComponent.csproj" />
   </ItemGroup>
 </Project>
